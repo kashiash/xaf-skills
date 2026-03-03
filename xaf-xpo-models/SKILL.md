@@ -307,6 +307,8 @@ private DateTime lastViewed;
 | Default `[Size]` is 100 | Without `[Size]`, strings become `nvarchar(100)` |
 | Cross-session object assignment | Never assign an object from one Session to another |
 | `Session.Save()` inside `OnSaving()` | Causes infinite recursion — don't call Save/CommitChanges in hooks |
+| `Session`/`IObjectSpace` stored in static field | Memory leak — always scope to operation with `using var os = ...` |
+| `GetObjects<T>()` without criteria on large tables | Loads entire table — add `CriteriaOperator` or `Take()` |
 
 ---
 

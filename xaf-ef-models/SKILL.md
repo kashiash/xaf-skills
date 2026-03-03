@@ -348,8 +348,14 @@ modelBuilder.Entity<OrderLine>()
 | No `IDesignTimeDbContextFactory` | `dotnet ef migrations add` fails |
 | Missing `DbSet<T>` for built-in XAF types | Add ModelDifference, ModelDifferenceAspect, etc. |
 | Circular cascade delete paths | Use `DeleteBehavior.Restrict` and handle manually |
+| `IObjectSpace` stored in static field or singleton | Memory leak — use `IObjectSpaceFactory` + `using var os = ...` |
+| Unbounded `GetObjects<T>()` without criteria | Loads entire table into memory — add `CriteriaOperator` or `Take()` |
 
 ---
+
+## Related Skills
+
+- `xaf-memory-leaks` — ObjectSpace disposal patterns, batch processing, CollectionSource lifecycle
 
 ## Source Links
 

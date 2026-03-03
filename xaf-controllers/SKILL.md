@@ -44,22 +44,41 @@ Place controllers in the platform-agnostic Module project (not in Blazor/WinForm
 
 ```csharp
 public class MyController : ViewController {
+    private bool _eventsSubscribed;
+
     protected override void OnActivated() {
         base.OnActivated();
-        View.CurrentObjectChanged += View_CurrentObjectChanged;
-        View.ObjectSpace.ObjectChanged += ObjectSpace_ObjectChanged;
+        if (!_eventsSubscribed) {
+            View.CurrentObjectChanged += View_CurrentObjectChanged;
+            View.ObjectSpace.ObjectChanged += ObjectSpace_ObjectChanged;
+            _eventsSubscribed = true;
+        }
     }
 
     protected override void OnDeactivated() {
-        View.CurrentObjectChanged -= View_CurrentObjectChanged; // always unsubscribe
-        View.ObjectSpace.ObjectChanged -= ObjectSpace_ObjectChanged;
+        Unsubscribe();
         base.OnDeactivated();
+    }
+
+    // Always override Dispose — OnDeactivated is not always called before disposal
+    protected override void Dispose(bool disposing) {
+        if (disposing) Unsubscribe();
+        base.Dispose(disposing);
+    }
+
+    private void Unsubscribe() {
+        if (!_eventsSubscribed) return;
+        if (View != null) View.CurrentObjectChanged -= View_CurrentObjectChanged;
+        if (View?.ObjectSpace != null) View.ObjectSpace.ObjectChanged -= ObjectSpace_ObjectChanged;
+        _eventsSubscribed = false;
     }
 
     private void View_CurrentObjectChanged(object sender, EventArgs e) { }
     private void ObjectSpace_ObjectChanged(object sender, ObjectChangedEventArgs e) { }
 }
 ```
+
+> **Memory leak risk:** Not unsubscribing events is the #1 cause of memory leaks in XAF. Always pair `+=` in `OnActivated` with `-=` in **both** `OnDeactivated` and `Dispose(bool)`. See `xaf-memory-leaks` for full patterns including `WeakEventSubscription` and resource tracker.
 
 ---
 
@@ -546,6 +565,10 @@ var selected = View.SelectedObjects.OfType<Employee>().ToList();
 ```
 
 ---
+
+## Related Skills
+
+- `xaf-memory-leaks` — full disposal patterns, WeakEventSubscription, ObjectSpace lifetime, diagnostic tools
 
 ## Source Links
 
