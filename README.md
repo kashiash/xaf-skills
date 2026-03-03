@@ -10,7 +10,7 @@ A comprehensive AI skill set for [DevExpress XAF (eXpressApp Framework)](https:/
 ### Via plugin marketplace (recommended)
 
 ```shell
-/plugin marketplace add YOUR_GITHUB_USERNAME/xaf-skills
+/plugin marketplace add kashiash/xaf-skills
 /plugin install xaf-devexpress@xaf-devexpress-skills
 ```
 
