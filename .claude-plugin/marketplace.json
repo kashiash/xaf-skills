@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/main/.claude-plugin/marketplace.schema.json",
+  "name": "xaf-devexpress-skills",
+  "version": "1.0.0",
+  "description": "DevExpress XAF (eXpressApp Framework) skill set for AI agents and developers. 18 reference skill files covering XPO, EF Core, Controllers, Security, Web API, Reports, Dashboards, Office modules, Blazor, WinForms, Multi-tenancy, Validation, Conditional Appearance, and Deployment.",
+  "owner": {
+    "name": "XAF Community",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "xaf-devexpress",
+      "description": "Complete DevExpress XAF reference skill set: EF Core & XPO models, Controllers & Actions, Security, Web API (OData), Reports, Dashboards, Office modules, Blazor UI, WinForms UI, Multi-tenancy, Validation, Conditional Appearance, Deployment. v24.2 and v25.1.",
+      "version": "1.0.0",
+      "source": ".",
+      "category": "development",
+      "author": {
+        "name": "XAF Community"
+      }
+    }
+  ]
+}
