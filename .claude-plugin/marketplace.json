@@ -1,39 +1,43 @@
 {
+  "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/marketplace/marketplace.schema.json",
   "name": "xaf-devexpress-skills",
+  "version": "1.1.0",
   "owner": {
     "name": "Jacek Kosinski",
     "email": ""
   },
   "metadata": {
-    "description": "DevExpress XAF (eXpressApp Framework) skill set for AI agents and developers. 18 reference skill files covering XPO, EF Core, Controllers, Security, Web API, Reports, Dashboards, Office modules, Blazor, WinForms, Multi-tenancy, Validation, Conditional Appearance, and Deployment.",
-    "version": "1.0.1"
+    "description": "DevExpress XAF (eXpressApp Framework) skill set for AI agents and developers. 18 reference skill files covering XPO, EF Core, Controllers, Security, Web API, Reports, Dashboards, Office, Blazor, WinForms, Multi-tenancy, Validation, Conditional Appearance, and Deployment."
   },
   "plugins": [
     {
       "name": "xaf-devexpress",
-      "description": "Complete DevExpress XAF reference skill set: EF Core & XPO models, Controllers & Actions, Security, Web API (OData), Reports, Dashboards, Office modules, Blazor UI, WinForms UI, Multi-tenancy, Validation, Conditional Appearance, Deployment. v24.2 and v25.1.",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/xaf",
-        "./skills/xaf-xpo-models",
-        "./skills/xaf-ef-models",
-        "./skills/xaf-controllers",
-        "./skills/xaf-editors",
-        "./skills/xaf-custom-editors",
-        "./skills/xaf-nonpersistent",
-        "./skills/xaf-security",
-        "./skills/xaf-multi-tenant",
-        "./skills/xaf-web-api",
-        "./skills/xaf-validation",
-        "./skills/xaf-reports",
-        "./skills/xaf-dashboards",
-        "./skills/xaf-office",
-        "./skills/xaf-blazor-ui",
-        "./skills/xaf-winforms-ui",
-        "./skills/xaf-conditional-appearance",
-        "./skills/xaf-deployment"
-      ]
+      "description": "Complete DevExpress XAF reference skill set: EF Core & XPO models, Controllers & Actions, DialogController, Security, Web API (OData), Reports, Dashboards, Office modules, Blazor UI, WinForms UI, Multi-tenancy, Validation, Conditional Appearance, Deployment. v24.2 and v25.1.",
+      "repository": "https://github.com/kashiash/xaf-skills",
+      "version": "1.1.0",
+      "author": {
+        "name": "Jacek Kosinski"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "xaf",
+        "devexpress",
+        "blazor",
+        "winforms",
+        "ef-core",
+        "xpo",
+        "dotnet",
+        "csharp"
+      ],
+      "tags": [
+        "xaf",
+        "devexpress",
+        "blazor",
+        "winforms",
+        "dotnet"
+      ],
+      "source": "./skills/"
     }
   ]
 }
