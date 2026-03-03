@@ -1,6 +1,6 @@
 ---
 name: xaf
-description: DevExpress XAF (eXpressApp Framework) master index. Use this skill first when working with any XAF topic to find the right sub-skill. Covers Blazor and WinForms, EF Core and XPO, versions v24.2 and v25.1. Sub-skills: xaf-xpo-models, xaf-ef-models, xaf-controllers, xaf-editors, xaf-custom-editors, xaf-nonpersistent, xaf-security, xaf-multi-tenant, xaf-web-api, xaf-validation, xaf-reports, xaf-dashboards, xaf-office, xaf-blazor-ui, xaf-winforms-ui, xaf-conditional-appearance, xaf-deployment.
+description: DevExpress XAF (eXpressApp Framework) master index. Use this skill first when working with any XAF topic to find the right sub-skill. Covers Blazor and WinForms, EF Core and XPO, versions v24.2 and v25.1. Sub-skills: xaf-xpo-models, xaf-ef-models, xaf-controllers, xaf-editors, xaf-custom-editors, xaf-nonpersistent, xaf-security, xaf-multi-tenant, xaf-web-api, xaf-validation, xaf-reports, xaf-dashboards, xaf-office, xaf-blazor-ui, xaf-winforms-ui, xaf-conditional-appearance, xaf-deployment, xaf-memory-leaks.
 license: MIT
 compatibility: opencode, claude-code
 metadata:
@@ -75,6 +75,12 @@ DevExpress XAF is a cross-platform .NET application framework for building busin
 | Skill | Load When |
 |---|---|
 | `xaf-deployment` | IIS/Azure/Docker for Blazor, ClickOnce/MSI for WinForms, migrations, license, logging |
+
+### Diagnostics & Quality
+
+| Skill | Load When |
+|---|---|
+| `xaf-memory-leaks` | Diagnosing memory leaks, auditing event handler cleanup, reviewing ObjectSpace/CollectionSource lifetime |
 
 ---
 

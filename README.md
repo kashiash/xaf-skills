@@ -169,6 +169,7 @@ Agents supporting auto-discovery will load the relevant skill automatically base
 | `xaf-winforms-ui` | WinForms UI, XtraGrid access, background workers, splash screen |
 | `xaf-conditional-appearance` | [Appearance] attribute, criteria expressions, dynamic appearance from code |
 | `xaf-deployment` | IIS/Azure/Docker, ClickOnce/MSI, DevExpress license, Serilog, health checks |
+| `xaf-memory-leaks` | Memory leak prevention: event handler symmetry, ObjectSpace scoped disposal, batch processing, IDisposable patterns, diagnostic tools |
 
 ---
 
@@ -245,6 +246,19 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for:
 - Pull request process
 
 This skill set is maintained to reflect the latest DevExpress XAF best practices and will be updated as new versions (v24.2, v25.1 and beyond) are released.
+
+---
+
+## Sources & Attribution
+
+These skills were built on knowledge from:
+
+- **[DevExpress XAF Documentation](https://docs.devexpress.com/eXpressAppFramework/112670/expressapp-framework)** — official reference for all XAF APIs and patterns
+- **[DevExpress GitHub Examples](https://github.com/DevExpress-Examples)** — official code samples and how-to projects
+- **[XafMemoryLeakDiagnosticMcp](https://github.com/egarim/XafMemoryLeakDiagnosticMcp/tree/master)** by [@egarim](https://github.com/egarim) — memory leak diagnostic guides that formed the basis for the `xaf-memory-leaks` skill
+- **[DevExpress MCP Server](https://community.devexpress.com/Blogs/news/archive/2025/10/16/transform-your-development-experience-with-the-devexpress-mcp-server.aspx)** — live documentation API used during skill authoring
+- **[DevExpress Support Center](https://supportcenter.devexpress.com)** — community knowledge base and Q&A
+- **[Agent Skills Directory (skills.sh)](https://skills.sh)** — open skills ecosystem and format specification
 
 ---
 
