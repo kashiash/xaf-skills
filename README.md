@@ -23,10 +23,11 @@ Run each command separately and wait for it to complete before running the next:
 
 ### Manual (global, all projects)
 
-Copy the `skills/` directory contents to `~/.claude/skills/`:
+Clone the repo and copy skill folders to `~/.claude/skills/`:
 
 ```bash
-cp -r skills/* ~/.claude/skills/
+git clone https://github.com/kashiash/xaf-skills
+cp -r xaf-skills/xaf* ~/.claude/skills/
 ```
 
 ## Available Skills
@@ -86,13 +87,12 @@ For even deeper documentation access, add the DevExpress MCP server to `~/.claud
 ```
 xaf-skills/
 ├── .claude-plugin/
-│   └── marketplace.json     ← plugin marketplace catalog
-├── skills/
-│   ├── xaf/SKILL.md         ← master index
-│   ├── xaf-xpo-models/SKILL.md
-│   ├── xaf-ef-models/SKILL.md
-│   └── ... (18 total)
-└── README.md
+│   └── marketplace.json        ← plugin marketplace catalog
+├── xaf/SKILL.md                ← master index
+├── xaf-xpo-models/SKILL.md
+├── xaf-ef-models/SKILL.md
+├── xaf-controllers/SKILL.md
+└── ... (18 skill folders total)
 ```
 
 ## License
