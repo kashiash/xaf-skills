@@ -230,12 +230,21 @@ compatibility: opencode, claude-code
 
 ## Contributing
 
-PRs welcome. When adding or updating a skill:
+Contributions are welcome! This repository follows the [Agent Skills](https://skills.sh) open format, which has specific structural requirements.
 
-1. Keep each SKILL.md focused on one topic — short, code-first, with source links
-2. Include a table of contents or section headers for fast scanning
-3. Add links to official docs at the bottom of each file
-4. Test that the skill name in frontmatter matches the folder name
+We strongly recommend using AI assistance for contributions:
+
+- Use the `skill-creator` skill with Claude to ensure proper formatting
+- This helps maintain the Agent Skills format and ensures your contribution works correctly with AI agents
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for:
+
+- How to use the `skill-creator` skill for contributions
+- Agent Skills format requirements
+- Quality standards and best practices
+- Pull request process
+
+This skill set is maintained to reflect the latest DevExpress XAF best practices and will be updated as new versions (v24.2, v25.1 and beyond) are released.
 
 ---
 
