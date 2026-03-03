@@ -8,17 +8,45 @@ An open-source skill set for AI coding assistants that support the [Agent Skills
 
 ## Installation
 
-### Option A: skills.sh CLI (recommended — works with Claude Code, Cursor, Copilot, Cline and more)
+### Option A: skills.sh CLI (recommended — works with 40+ agents)
 
-Install all 18 skills at once:
+The `npx skills` CLI installs to the correct location for each tool automatically.
+
+**Install all 18 skills globally:**
 ```bash
 npx skills add kashiash/xaf-skills
 ```
 
-Install a specific skill only:
+**Install for a specific tool:**
+```bash
+npx skills add kashiash/xaf-skills -a claude-code
+npx skills add kashiash/xaf-skills -a cursor
+npx skills add kashiash/xaf-skills -a windsurf
+npx skills add kashiash/xaf-skills -a github-copilot
+npx skills add kashiash/xaf-skills -a cline
+```
+
+**Install a single skill only:**
 ```bash
 npx skills add kashiash/xaf-skills --skill xaf-controllers
 ```
+
+**Preview what will be installed:**
+```bash
+npx skills add kashiash/xaf-skills --list
+```
+
+#### Where skills are stored per tool
+
+| Tool | Global | Project |
+|------|--------|---------|
+| Claude Code | `~/.claude/skills/` | `.claude/skills/` |
+| Cursor | `~/.cursor/skills/` | `.agents/skills/` |
+| Windsurf | `~/.codeium/windsurf/skills/` | `.windsurf/skills/` |
+| GitHub Copilot | `~/.copilot/skills/` | `.agents/skills/` |
+| Cline | `~/.agents/skills/` | `.agents/skills/` |
+
+---
 
 ### Option B: Claude Code plugin marketplace
 
@@ -31,7 +59,7 @@ Run each command **separately** and wait for it to complete:
 /plugin install xaf-devexpress@xaf-devexpress-skills
 ```
 
-### Option C: Team / project-level (shared settings.json)
+### Option C: Team / project-level — Claude Code (shared settings.json)
 
 Add to your project's `.claude/settings.json` to share with the whole team automatically:
 
@@ -55,7 +83,12 @@ Add to your project's `.claude/settings.json` to share with the whole team autom
 
 ```bash
 git clone https://github.com/kashiash/xaf-skills
+# Claude Code
 cp -r xaf-skills/xaf* ~/.claude/skills/
+# Cursor
+cp -r xaf-skills/xaf* ~/.cursor/skills/
+# Windsurf
+cp -r xaf-skills/xaf* ~/.codeium/windsurf/skills/
 ```
 
 ---
