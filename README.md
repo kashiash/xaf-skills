@@ -7,9 +7,21 @@ A comprehensive AI skill set for [DevExpress XAF (eXpressApp Framework)](https:/
 
 ## Installation
 
-### Via plugin marketplace (recommended)
+### Option A: skills.sh CLI (simplest — works with Claude Code, Cursor, Copilot, Cline and more)
 
-Run each command separately and wait for it to complete before running the next:
+Install all 18 skills at once:
+```bash
+npx skills add kashiash/xaf-skills
+```
+
+Install a single skill:
+```bash
+npx skills add kashiash/xaf-skills --skill xaf-controllers
+```
+
+### Option B: Claude Code plugin marketplace
+
+Run each command **separately** and wait for it to complete:
 
 **Step 1** — add the marketplace:
 ```shell
@@ -21,7 +33,27 @@ Run each command separately and wait for it to complete before running the next:
 /plugin install xaf-devexpress@xaf-devexpress-skills
 ```
 
-### Manual (global, all projects)
+### Option C: Team / project-level (settings.json)
+
+Add to your project's `.claude/settings.json` to share with the whole team:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "xaf-devexpress-skills": {
+      "source": {
+        "source": "github",
+        "repo": "kashiash/xaf-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "xaf-devexpress@xaf-devexpress-skills": true
+  }
+}
+```
+
+### Option D: Manual
 
 Clone the repo and copy skill folders to `~/.claude/skills/`:
 
