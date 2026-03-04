@@ -1,12 +1,6 @@
 ---
 name: xaf-validation
 description: XAF Validation Module - ValidationModule setup, built-in rules (RuleRequiredField, RuleRegularExpression, RuleRange, RuleStringLength, RuleUniqueValue, RuleCriteria, RuleValueComparison, RuleIsReferenced), rule contexts (DefaultContexts.Save/Delete), [RuleSet] attribute, custom validation rules via RuleBase, programmatic validation via Validator, conditional validation, cross-property validation, validation in Web API. Use when adding data validation rules to XAF business objects.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: validation
-  versions: v24.2, v25.1
 ---
 
 # XAF: Validation Module

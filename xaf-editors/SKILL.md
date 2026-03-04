@@ -1,12 +1,6 @@
 ---
 name: xaf-editors
 description: XAF built-in property editors and list editors - editor type mapping by data type, EditorAliases constants, [EditorAlias] attribute, [ModelDefault] for DisplayFormat/EditMask, ObjectPropertyEditor for inline sub-forms, list editor types (GridListEditor, DxGridListEditor, TreeListEditor, ChartListEditor), GridListEditor WinForms customization, DxGridListEditor Blazor customization, IModelListView/IModelColumn properties. Use when working with built-in XAF editors or customizing grid/list views.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: editors
-  versions: v24.2, v25.1
 ---
 
 # XAF: Property Editors & List Editors

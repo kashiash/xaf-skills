@@ -1,12 +1,6 @@
 ---
 name: xaf-multi-tenant
 description: XAF Multi-tenancy (v24.2+) - separate database per tenant, AddMultiTenancy setup, ITenantProvider, built-in tenant resolvers (TenantByEmailResolver), custom resolvers, connection string per tenant, custom Tenant class, data isolation, host vs tenant UI, user-tenant association, scoped services, common pitfalls. Use when building multi-tenant SaaS applications with DevExpress XAF Blazor.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: multi-tenancy
-  versions: v24.2, v25.1
 ---
 
 # XAF: Multi-Tenancy

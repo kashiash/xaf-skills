@@ -1,12 +1,6 @@
 ---
 name: xaf-memory-leaks
 description: XAF Memory Leak Prevention - event handler symmetry (OnActivated/OnDeactivated/Dispose), ObjectSpace scoped disposal with using statement, batch processing large datasets, IDisposable pattern for controllers with List<IDisposable> tracker, WeakEventSubscription, static reference anti-patterns, CollectionSource disposal, Session/HttpContext/Application anti-patterns (WebForms), ObjectSpacePool, controller lifecycle tracking, NavigationMonitor, warning signs, diagnostic tools (dotMemory, PerfView, XAF Tracing). Use when diagnosing memory leaks, auditing controller disposal, reviewing ObjectSpace lifetime, or reviewing Session usage in DevExpress XAF applications.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: memory-leaks
-  versions: v24.2, v25.1
 ---
 
 # XAF: Memory Leak Prevention

@@ -1,12 +1,6 @@
 ---
 name: xaf-custom-editors
 description: XAF custom property and list editors - BlazorPropertyEditorBase with ComponentModelBase and Razor component, WinForms WinPropertyEditor/DXPropertyEditor with CreateControlCore/OnControlValueChanged/BreakLinksToControl, custom ListEditor implementation with all required members, attribute-based and manual EditorDescriptorsFactory registration, accessing editors from controllers. Use when building custom controls, third-party component wrappers, or specialized editors in DevExpress XAF Blazor or WinForms.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: custom-editors
-  versions: v24.2, v25.1
 ---
 
 # XAF: Custom Property Editors & List Editors

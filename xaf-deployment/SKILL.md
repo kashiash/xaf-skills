@@ -1,12 +1,6 @@
 ---
 name: xaf-deployment
 description: XAF Deployment - Blazor to IIS/Azure App Service/Docker, WinForms ClickOnce/MSI, database initialization (UpdateDatabaseBeforeOpen, DatabaseVersionMismatch), connection strings in appsettings.json (XPO vs EF Core keys), DevExpress license deployment (DEVEXPRESS_LICENSE_KEY env var), Serilog/ILogger integration, ASP.NET health checks, environment configuration (Development vs Production). Use when deploying DevExpress XAF Blazor or WinForms applications to production.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: deployment
-  versions: v24.2, v25.1
 ---
 
 # XAF: Deployment

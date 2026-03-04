@@ -1,12 +1,6 @@
 ---
 name: xaf-office
 description: XAF Office/Document Management Modules - FileAttachmentsModule with IFileData/FileAttachment patterns (XPO and EF Core), SpreadsheetModule for Excel editing with ISpreadsheetValueStorage, RichTextModule for Word-like editing with IRichTextDocumentProvider and mail merge, PdfViewerModule for PDF display, platform differences (Blazor vs WinForms), programmatic document manipulation. Use when adding file attachments, spreadsheet editing, rich text editing, or PDF viewing to DevExpress XAF applications.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: office-modules
-  versions: v24.2, v25.1
 ---
 
 # XAF: Office / Document Management Modules

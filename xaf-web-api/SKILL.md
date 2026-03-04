@@ -1,12 +1,6 @@
 ---
 name: xaf-web-api
 description: XAF Backend Web API Service - OData v4 REST endpoints, Program.cs setup with JWT auth, business object exposure with [AllowedAction]/[IgnoreDataMember], OData query options ($filter/$expand/$select/$orderby/$top/$skip/$count), JWT authentication flow, custom OData actions/functions via [Action] attribute, Swagger integration, security integration, file upload, v24.2 vs v25.1 differences. Use when building or consuming the XAF Web API backend service.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: web-api
-  versions: v24.2, v25.1
 ---
 
 # XAF: Backend Web API Service

@@ -1,12 +1,6 @@
 ---
 name: xaf-dashboards
 description: XAF Analytics & Dashboards Module - DashboardsModule/DashboardsBlazorModule/DashboardsWinModule setup, DashboardData persistent object storage, IXafDashboardStorage custom storage, dashboard viewer and designer in UI, data sources for business objects (EF Core and XPO), DashboardDataProvider customization, predefined dashboards, view/design security permissions. Use when integrating DevExpress Dashboard analytics into XAF applications.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: dashboards
-  versions: v24.2, v25.1
 ---
 
 # XAF: Analytics & Dashboards Module

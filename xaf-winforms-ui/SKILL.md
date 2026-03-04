@@ -1,12 +1,6 @@
 ---
 name: xaf-winforms-ui
 description: XAF WinForms UI platform - WinApplication setup, Ribbon vs Standard toolbar, WinForms-specific editors (XtraGrid, DevExpress controls), Detail View layout customization via Layout Manager, custom WinForms controls embedded in XAF views, background workers for thread-safe UI updates, splash screen customization, WinForms navigation (NavigationFrame), printing/preview in WinForms, ClickOnce/MSI deployment. Use when building or customizing XAF WinForms applications.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: winforms-ui
-  versions: v24.2, v25.1
 ---
 
 # XAF: WinForms UI Platform

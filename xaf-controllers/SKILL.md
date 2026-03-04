@@ -1,12 +1,6 @@
 ---
 name: xaf-controllers
 description: XAF Controllers and Actions - ViewController, ObjectViewController<TView,TObject>, WindowController, ApplicationController, controller lifecycle (OnActivated/OnDeactivated/OnViewControlsCreated/OnViewShown), SimpleAction/PopupWindowShowAction/SingleChoiceAction/ParametrizedAction full patterns, async actions in Blazor (async void + InvokeAsync), DialogController (SaveOnAccept/CanCloseWindow/Accepting/Cancelling), chaining consecutive popups, ObjectChanged/CurrentObjectChanged event refresh patterns, Frame/NestedFrame, Active/Enabled collections. Use when creating custom actions, controllers, or view logic in DevExpress XAF.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: controllers
-  versions: v24.2, v25.1
 ---
 
 # XAF: Controllers & Actions

@@ -1,12 +1,6 @@
 ---
 name: xaf-security
 description: XAF Security System - SecurityStrategyComplex, role-based access control, TypePermission/ObjectPermission/MemberPermission, PermissionSettingHelper, authentication types (Standard, ActiveDirectory, OAuth2 v24.2+), programmatic permission checks via ISecurityStrategyBase, SecurityOperations constants, DenyAllByDefault policy, JWT Web API integration, custom ApplicationUser/Role classes, Updater seeding. Use when implementing security, roles, permissions or authentication in DevExpress XAF.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: security
-  versions: v24.2, v25.1
 ---
 
 # XAF: Security System

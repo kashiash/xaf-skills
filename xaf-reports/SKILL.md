@@ -1,12 +1,6 @@
 ---
 name: xaf-reports
 description: XAF Reports Module (XtraReports v2) - ReportsModuleV2 setup for Blazor and WinForms, report storage (DB/filesystem/custom IReportStorageWebExtension), creating predefined reports in code (PredefinedReportsUpdater), data sources (CollectionDataSource/EntityServerModeSource), report parameters, programmatic export (PDF/Excel/Word), in-app designer, PrintAction, security permissions for report design vs view. Use when working with DevExpress XtraReports integration in XAF.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: reports
-  versions: v24.2, v25.1
 ---
 
 # XAF: Reports Module (XtraReports)

@@ -1,12 +1,6 @@
 ---
 name: xaf-conditional-appearance
 description: XAF Conditional Appearance - ConditionalAppearanceModule setup, [Appearance] attribute with all parameters (Criteria, TargetItems, Context, AppearanceItemType, Visibility, Enabled, FontColor, BackColor, FontStyle, CSS), criteria expression syntax, targeting multiple properties, coloring list view rows, hiding actions, dynamic appearance from code via IAppearanceEnabled/IAppearanceVisibility, model-based rules. Use when conditionally hiding, disabling, or styling UI elements in DevExpress XAF.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: conditional-appearance
-  versions: v24.2, v25.1
 ---
 
 # XAF: Conditional Appearance

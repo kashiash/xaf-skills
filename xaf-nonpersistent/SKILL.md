@@ -1,12 +1,6 @@
 ---
 name: xaf-nonpersistent
 description: XAF NonPersistent objects - [DomainComponent] attribute, NonPersistentBaseObject base class, AddNonPersistent() registration, ObjectsGetting/ObjectByKeyGetting events with DynamicCollection, PopupWindowShowAction for input dialogs using non-persistent objects, linking to persistent objects, refresh patterns, RemoveFromModifiedObjects, common pitfalls. Use when building custom data sources, API wrappers, input forms, or computed views without database persistence in DevExpress XAF.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: nonpersistent
-  versions: v24.2, v25.1
 ---
 
 # XAF: NonPersistent Objects

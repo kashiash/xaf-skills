@@ -1,13 +1,6 @@
 ---
 name: xaf-ef-models
 description: XAF Entity Framework Core business object models - BaseObject base class, IXafEntityObject/IObjectSpaceLink/IOptimisticLock interfaces, virtual properties, DbContext setup with IDbContextFactory, one-to-many/many-to-many/one-to-one relations via navigation properties, EF Core migrations in XAF, computed columns, ObservableCollection. Use when defining business objects with EF Core ORM in DevExpress XAF.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: data-modeling
-  orm: ef-core
-  versions: v24.2, v25.1
 ---
 
 # XAF: EF Core Business Object Models

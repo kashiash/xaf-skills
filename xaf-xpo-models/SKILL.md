@@ -1,13 +1,6 @@
 ---
 name: xaf-xpo-models
 description: XAF XPO persistent object models - base classes (XPObject, XPBaseObject, XPCustomObject, BaseObject), key attributes (Persistent, Size, Indexed, Association, Aggregated), one-to-many/many-to-many/one-to-one relations, PersistentAlias calculated fields, Session access, optimistic locking, common pitfalls. Use when defining business objects with XPO ORM in DevExpress XAF.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: data-modeling
-  orm: xpo
-  versions: v24.2, v25.1
 ---
 
 # XAF: XPO Business Object Models
