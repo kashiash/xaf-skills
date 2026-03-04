@@ -1,14 +1,6 @@
 ---
 name: xaf
-description: DevExpress XAF (eXpressApp Framework) master index. Use this skill first when working with any XAF topic to find the right sub-skill. Covers Blazor and WinForms, EF Core and XPO, versions v24.2 and v25.1. Sub-skills: xaf-xpo-models, xaf-ef-models, xaf-controllers, xaf-editors, xaf-custom-editors, xaf-nonpersistent, xaf-security, xaf-multi-tenant, xaf-web-api, xaf-validation, xaf-reports, xaf-dashboards, xaf-office, xaf-blazor-ui, xaf-winforms-ui, xaf-conditional-appearance, xaf-deployment, xaf-memory-leaks.
-license: MIT
-compatibility: opencode, claude-code
-metadata:
-  domain: xaf
-  topic: index
-  versions: v24.2, v25.1
-  docs: https://docs.devexpress.com/eXpressAppFramework/112670/expressapp-framework
-  mcp: https://api.devexpress.com/mcp/docs
+description: "DevExpress XAF (eXpressApp Framework) master index. Use this skill first when working with any XAF topic to find the right sub-skill. Covers Blazor and WinForms, EF Core and XPO, versions v24.2 and v25.1. Sub-skills: xaf-xpo-models, xaf-ef-models, xaf-controllers, xaf-editors, xaf-custom-editors, xaf-nonpersistent, xaf-security, xaf-multi-tenant, xaf-web-api, xaf-validation, xaf-reports, xaf-dashboards, xaf-office, xaf-blazor-ui, xaf-winforms-ui, xaf-conditional-appearance, xaf-deployment, xaf-memory-leaks."
 ---
 
 # XAF (eXpressApp Framework) — Skill Index
